@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-01T17:47:23 IST" name="Default suite" finished-at="2022-07-01T17:47:23 IST" duration-ms="106">
+    <groups>
+      <group name="log1">
+        <method signature="Test2.checkTitle()[pri:2, instance:com.test.Test2@503d687a]" name="checkTitle" class="com.test.Test2"/>
+        <method signature="Test2.login1()[pri:1, instance:com.test.Test2@503d687a]" name="login1" class="com.test.Test2"/>
+      </group> <!-- log1 -->
+    </groups>
+    <test started-at="2022-07-01T17:47:23 IST" name="Default test" finished-at="2022-07-01T17:47:23 IST" duration-ms="106">
+      <class name="com.test.Test2">
+        <test-method signature="login1()[pri:1, instance:com.test.Test2@503d687a]" started-at="2022-07-01T17:47:23 IST" name="login1" finished-at="2022-07-01T17:47:23 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method signature="checkTitle()[pri:2, instance:com.test.Test2@503d687a]" started-at="2022-07-01T17:47:23 IST" name="checkTitle" finished-at="2022-07-01T17:47:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method signature="logged()[pri:1, instance:com.test.Test2@503d687a]" started-at="2022-07-01T17:47:23 IST" name="logged" depends-on-groups="log1" finished-at="2022-07-01T17:47:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logged -->
+        <test-method signature="dashboard()[pri:0, instance:com.test.Test2@503d687a]" started-at="2022-07-01T17:47:23 IST" name="dashboard" finished-at="2022-07-01T17:47:23 IST" depends-on-methods="com.test.Test2.logged" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboard -->
+        <test-method signature="logout()[pri:2, instance:com.test.Test2@503d687a]" started-at="2022-07-01T17:47:23 IST" name="logout" finished-at="2022-07-01T17:47:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.test.Test2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
